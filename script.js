@@ -1,5 +1,5 @@
 // Assignment code here
-var userResponse = {}
+
 var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 var upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 var special = [  "+", "-", "&&", "||", "!", "(", ")", "{", "}", "[", "]", "^",
@@ -12,7 +12,7 @@ function optionsforPassword() {
     alert ("Password does not meet minimum requirements")
     return null;
    }
-   
+
    if (range >128) {
     alert ("Password is too long")
     return null;
@@ -22,22 +22,18 @@ function optionsforPassword() {
    var upper = confirm ("Include upper case?")
    var numbers = confirm ("Include numbers case?")
    var symbols = confirm ("Include symbols case?")
+
 };
 
 optionsforPassword()
-
 function generatePassword() {
-  userResponse = {range, lower, upper,numbers, symbols}
-  
+
 }
 
-
 var tagName = prompt("Please enter an HTML Tag (ex. h1, h2, p, div):", "enter tag");
-
-if (tagName !== "h1" && tagName !== "h2" && tagName !== "p" && tagName !== "div") {
+    if (tagName !== "h1" && tagName !== "h2" && tagName !== "p" && tagName !== "div") {
   alert("please enter a valid tag");
-} else 
-
+} else
 
 //store user response in an object javascripts objects
 //create random password generator math random
@@ -89,5 +85,5 @@ function writePassword() {
 generateBtn.addEventListener('click', writePassword);
 
 
-.addEventListener("click", function(event) {
-  event.preventDefault();
+// .addEventListener("click", function(event) {
+  // event.preventDefault();
