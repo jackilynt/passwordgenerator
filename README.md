@@ -42,5 +42,5 @@ Follow classroom instructions on where to submit the assignment and copy the cod
 W3 
 VS course solved materials
 Classmates butchered codes
-Pull requests are welcome. For major changes, as you all can see it is unfinished.  SOS
+Author has had conflicting instructions on putting generator together but thanks to Wyatt Howlett from bootcamp it is the closest to where the code needed to be
 
