@@ -21,7 +21,6 @@ function generatePassword() {
   var finalPassword = [];
   var passwordLength = 0;
 
-
   var length = prompt("How many characters are in your password minimum 8 maximum 128?");
     if (length < 8 || length > 128) {
     alert("Password does not meet minimum requirements. Start Over.");
@@ -67,5 +66,5 @@ function generatePassword() {
 
 }
 
-
+generateBtn.addEventListener("click", writePassword);
 
