@@ -1,5 +1,5 @@
 // Assignment code here
-
+var userResponse = {}
 var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 var upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 var special = [  "+", "-", "&&", "||", "!", "(", ")", "{", "}", "[", "]", "^",
@@ -27,7 +27,8 @@ function optionsforPassword() {
 optionsforPassword()
 
 function generatePassword() {
-
+  userResponse = {range, lower, upper,numbers, symbols}
+  
 }
 
 
@@ -86,3 +87,7 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
+
+
+.addEventListener("click", function(event) {
+  event.preventDefault();
