@@ -1,13 +1,16 @@
 # passwordgenerator
+This is a simple password generator bootcamp project.
 
-User Story
+All bootcamp students benefit from writing JavaScripts from scratch with emphasis on arrays, alerts, prompts and more to practice their skills and knowledge every week.
+
+#### User Story
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 
 
 
-Acceptance Criteria
+#### Acceptance Criteria
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
@@ -24,4 +27,20 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 
 
+#### Homework Instructions
+Create a new repository in your personal gibhub
+Clone the boootcamp gitlab repository and make a local copy
+Make adjustments to the code from your locally cloned copy
+Git add > commit > push
+This should publish your completed code into your github
+Follow classroom instructions on where to submit the assignment and copy the code as per instructions
+
+
+
+
+#### Contributors
+W3 
+VS course solved materials
+Classmates butchered codes
+Pull requests are welcome. For major changes, as you all can see it is unfinished.  SOS
 
