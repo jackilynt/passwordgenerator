@@ -1,4 +1,3 @@
-
 var generateBtn = document.querySelector('#generate');
 
 var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -44,11 +43,11 @@ function generatePassword() {
   if (pwdLowerCase) {
     passwordOptions = passwordOptions.concat(lower);
   }
-  if (numbers) {
-    passwordOptions = passwordOptions.concat(pwdNumbers);
+  if (pwdNumbers) {
+    passwordOptions = passwordOptions.concat(numbers.map(String));
   }
-  if (special) {
-    passwordOptions = passwordOptions.concat(pwdSpecial);
+  if (pwdSpecial) {
+    passwordOptions = passwordOptions.concat(special);
   }
 
   console.log("passwordOptions", passwordOptions);
@@ -60,7 +59,4 @@ function generatePassword() {
   console.log(finalPassword);
 
   return finalPassword.join("");
-
 }
-
-generateBtn.addEventListener("click", writePassword);
